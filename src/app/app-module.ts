@@ -11,6 +11,9 @@ import { ListarCliente } from './listar-cliente/listar-cliente';
 import { Home } from './home/home';
 import { Calculadora } from './calculadora/calculadora';
 import { PaginaNaoEncontrada } from './pagina-nao-encontrada/pagina-nao-encontrada';
+import { TelaPai } from './tela-pai/tela-pai';
+import { TelaFilho1 } from './tela-filho1/tela-filho1';
+import { TelaFilho2 } from './tela-filho2/tela-filho2';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { PaginaNaoEncontrada } from './pagina-nao-encontrada/pagina-nao-encontra
     ListarCliente,
     Home,
     Calculadora,
-    PaginaNaoEncontrada
+    PaginaNaoEncontrada,
+    TelaPai,
+    TelaFilho1,
+    TelaFilho2
   ],
   imports: [
     BrowserModule,
