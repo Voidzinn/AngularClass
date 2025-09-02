@@ -10,6 +10,7 @@ import { NgbCarouselModule, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ListarCliente } from './listar-cliente/listar-cliente';
 import { Home } from './home/home';
 import { Calculadora } from './calculadora/calculadora';
+import { PaginaNaoEncontrada } from './pagina-nao-encontrada/pagina-nao-encontrada';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Calculadora } from './calculadora/calculadora';
     Destaque,
     ListarCliente,
     Home,
-    Calculadora
+    Calculadora,
+    PaginaNaoEncontrada
   ],
   imports: [
     BrowserModule,
